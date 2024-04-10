@@ -1,0 +1,6 @@
+paho-mqtt
+certifi
+mysql-connector-python
+uvicorn
+sqlalchemy
+flask

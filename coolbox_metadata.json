@@ -1,0 +1,1701 @@
+{
+    "devices": {
+        "1": {
+            "sd": "MainHubController",
+            "sensors": {}
+        },
+        "22": {
+            "sd": "Palovaroitin",
+            "sensors": {
+                "22_128_0_Level": {
+                    "sd": "Pariston varaus",
+                    "unit": "%"
+                },
+                "22_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "22_113_0_SmokeAlarm_SensorStatus": {
+                    "sd": "Palohälytyksen tila",
+                    "unit": ""
+                }
+            }
+        },
+        "29": {
+            "sd": "TB Häkävaroitin",
+            "sensors": {
+                "29_128_0_Level": {
+                    "sd": "Pariston varaus",
+                    "unit": "%"
+                },
+                "29_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "29_113_0_COAlarm_SensorStatus": {
+                    "sd": "Häkävaroituksen tila",
+                    "unit": ""
+                }
+            }
+        },
+        "35": {
+            "sd": "Kylpyhuoneen sisäilma",
+            "sensors": {
+                "35_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "35_49_0_Humidity": {
+                    "sd": "Kosteus",
+                    "unit": "%"
+                },
+                "35_49_0_VolatileOrganicCompoundLevel": {
+                    "sd": "VOC-taso",
+                    "unit": "ppb"
+                },
+                "35_49_0_SmokeDensity": {
+                    "sd": "Savutaso",
+                    "unit": ""
+                },
+                "35_49_0_GeneralPurpose": {
+                    "sd": "Liiketunnistus",
+                    "unit": ""
+                },
+                "35_49_0_ParticulateMatter25": {
+                    "sd": "Hiukkasmäärä 2.5 µm",
+                    "unit": "µg/m3"
+                },
+                "35_49_0_CarbonDioxideLevel": {
+                    "sd": "Hiilidioksiditaso, tehdasbugi aina 0",
+                    "unit": "ppm"
+                },
+                "35_49_0_Illuminance": {
+                    "sd": "Valaistusvoimakkuus",
+                    "unit": "lx"
+                },
+                "35_49_0_Loudness": {
+                    "sd": "Melutaso",
+                    "unit": "dBA"
+                }
+            }
+        },
+        "47": {
+            "sd": "Lattialämmitys",
+            "sensors": {
+                "47_37_1_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 1"
+                },
+                "47_50_1_Value_66049": {
+                    "sd": "Teho, kanava 1",
+                    "unit": "W"
+                },
+                "47_50_1_Value_65537": {
+                    "sd": "Energiakulutus, kanava 1",
+                    "unit": "kWh"
+                },
+                "47_37_2_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 2"
+                },
+                "47_50_2_Value_66049": {
+                    "sd": "Teho, kanava 2",
+                    "unit": "W"
+                },
+                "47_50_2_Value_65537": {
+                    "sd": "Energiakulutus, kanava 2",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "48": {
+            "sd": "Valokaton kaukosäädin",
+            "sensors": {
+                "48_128_0_Level": {
+                    "sd": "Pariston varaus",
+                    "unit": "%"
+                },
+                "48_91_0_Scene_001": {
+                    "sd": "Nappi 1 status",
+                    "unit": ""
+                },
+                "48_91_0_Scene_002": {
+                    "sd": "Nappi 2 status",
+                    "unit": ""
+                },
+                "48_91_0_Scene_003": {
+                    "sd": "Nappi 3 status",
+                    "unit": ""
+                },
+                "48_91_0_Scene_004": {
+                    "sd": "Nappi 4 status",
+                    "unit": ""
+                },
+                "48_91_0_Scene_005": {
+                    "sd": "Nappi 5 status",
+                    "unit": ""
+                },
+                "48_91_0_Scene_006": {
+                    "sd": "Nappi 6 status",
+                    "unit": ""
+                },
+                "48_91_0_Scene_007": {
+                    "sd": "Nappi 7 status",
+                    "unit": ""
+                },
+                "48_91_0_Scene_008": {
+                    "sd": "Nappi 8 status",
+                    "unit": ""
+                }
+            }
+        },
+        "52": {
+            "sd": "Sääasema seinä",
+            "sensors": {
+                "52_49_0_AirTemperature": {
+                    "sd": "Ulkolämpötila",
+                    "unit": "°C"
+                },
+                "52_49_0_Illuminance": {
+                    "sd": "Valaistus",
+                    "unit": "%"
+                },
+                "52_49_0_Humidity": {
+                    "sd": "Ilmankosteus",
+                    "unit": "%"
+                },
+                "52_49_0_Velocity": {
+                    "sd": "Tuulen nopeus",
+                    "unit": "m/s"
+                },
+                "52_49_0_BarometricPressure": {
+                    "sd": "Ilmanpaine",
+                    "unit": "kPa"
+                },
+                "52_49_0_DewPoint": {
+                    "sd": "Kastepiste",
+                    "unit": "°C"
+                },
+                "52_128_0_Level": {
+                    "sd": "Akun varaus",
+                    "unit": "%"
+                },
+                "52_50_0_Value_65538": {
+                    "sd": "Sääaseman aurinkokennon tuottama energia",
+                    "unit": "kWh"
+                },
+                "52_50_0_Value_66306": {
+                    "sd": "Sääaseman energiatuotannon pulssilaskuri",
+                    "unit": "pulses"
+                }
+            }
+        },
+        "53": {
+            "sd": "Pr vedenlämmitin",
+            "sensors": {
+                "53_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "53_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                },
+                "53_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "54": {
+            "sd": "Pr vessa",
+            "sensors": {
+                "54_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "54_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                },
+                "54_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "68": {
+            "sd": "Seinävalot sisällä",
+            "sensors": {
+                "68_37_1_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 1"
+                },
+                "68_50_1_Value_66049": {
+                    "sd": "Teho, kanava 1",
+                    "unit": "W"
+                },
+                "68_50_1_Value_65537": {
+                    "sd": "Energiakulutus, kanava 1",
+                    "unit": "kWh"
+                },
+                "68_37_2_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 2"
+                },
+                "68_50_2_Value_66049": {
+                    "sd": "Teho, kanava 2",
+                    "unit": "W"
+                },
+                "68_50_2_Value_65537": {
+                    "sd": "Energiakulutus, kanava 2",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "71": {
+            "sd": "Seinävalot ulkona",
+            "sensors": {
+                "71_37_1_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 1"
+                },
+                "71_50_1_Value_66049": {
+                    "sd": "Teho, kanava 1",
+                    "unit": "W"
+                },
+                "71_50_1_Value_65537": {
+                    "sd": "Energiakulutus, kanava 1",
+                    "unit": "kWh"
+                },
+                "71_37_2_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 2"
+                },
+                "71_50_2_Value_66049": {
+                    "sd": "Teho, kanava 2",
+                    "unit": "W"
+                },
+                "71_50_2_Value_65537": {
+                    "sd": "Energiakulutus, kanava 2",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "78": {
+            "sd": "Ilmastointi keittiö",
+            "sensors": {
+                "78_37_0_CurrentValue": {
+                    "sd": "Tehotaso",
+                    "unit": ""
+                }
+            }
+        },
+        "79": {
+            "sd": "Ilmastointi rappuset",
+            "sensors": {
+                "79_37_0_CurrentValue": {
+                    "sd": "Tehotaso",
+                    "unit": ""
+                }
+            }
+        },
+        "82": {
+            "sd": "Ilmastointi kylpyhuone",
+            "sensors": {
+                "82_37_0_CurrentValue": {
+                    "sd": "Tehotaso",
+                    "unit": ""
+                }
+            }
+        },
+        "83": {
+            "sd": "TB ilmastointi",
+            "sensors": {
+                "83_37_0_CurrentValue": {
+                    "sd": "Päällä/pois",
+                    "unit": ""
+                }
+            }
+        },
+        "85": {
+            "sd": "Sisäilma-anturi eurotronic, postettu käytöstä",
+            "sensors": {
+                "85_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "85_49_0_Humidity": {
+                    "sd": "Kosteus",
+                    "unit": "%"
+                },
+                "85_49_0_DewPoint": {
+                    "sd": "Kastepiste",
+                    "unit": "°C"
+                },
+                "85_49_0_CarbonDioxideLevel": {
+                    "sd": "Hiilidioksiditaso",
+                    "unit": "ppm"
+                },
+                "85_49_0_VolatileOrganicCompoundLevel": {
+                    "sd": "VOC-taso",
+                    "unit": "ppm"
+                }
+            }
+        },
+        "103": {
+            "sd": "LED-katto-ohjausryhmä 1",
+            "sensors": {
+                "103_50_1_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "103_50_1_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "106": {
+            "sd": "LED-katto-ohjausryhmä 2",
+            "sensors": {
+                "106_50_1_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "106_50_1_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "110": {
+            "sd": "LED-katto-ohjausryhmä 3",
+            "sensors": {
+                "110_50_1_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "110_50_1_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "112": {
+            "sd": "LED-katto-ohjausryhmä 4",
+            "sensors": {
+                "112_50_1_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "112_50_1_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "116": {
+            "sd": "LED-katto-ohjausryhmä 5",
+            "sensors": {
+                "116_50_1_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "116_50_1_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "120": {
+            "sd": "LED-katto-ohjausryhmä 6",
+            "sensors": {
+                "120_50_1_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "120_50_1_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "121": {
+            "sd": "Mikrorakennuksen 3-vaihesähkömittari",
+            "sensors": {
+                "121_50_1_Value_65537": {
+                    "sd": "Kaikki vaiheet yhteensä Pätöenergia",
+                    "unit": "kWh"
+                },
+                "121_50_1_Value_65793": {
+                    "sd": "Kaikki vaiheet yhteensä Näennäisenergia",
+                    "unit": "kVAh"
+                },
+                "121_50_1_Value_66049": {
+                    "sd": "Kaikki vaiheet yhteensä Pätöteho",
+                    "unit": "W"
+                },
+                "121_50_1_Value_67073": {
+                    "sd": "Kaikki vaiheet yhteensä Tehokerroin",
+                    "unit": ""
+                },
+                "121_50_1_Value_67329": {
+                    "sd": "Kaikki vaiheet yhteensä Loisteho",
+                    "unit": "kVar"
+                },
+                "121_50_1_Value_67585": {
+                    "sd": "Kaikki vaiheet yhteensä Loisenergia",
+                    "unit": "kVarh"
+                },
+                "121_50_1_Value_65538": {
+                    "sd": "Kaikki vaiheet yhteensä Pätöenergian tuotto",
+                    "unit": "kWh"
+                },
+                "121_50_1_Value_65794": {
+                    "sd": "Kaikki vaiheet yhteensä Näennäisenergian tuotto",
+                    "unit": "kVAh"
+                },
+                "121_50_1_Value_66050": {
+                    "sd": "Kaikki vaiheet yhteensä Pätöteho tuotto",
+                    "unit": "W"
+                },
+                "121_50_1_Value_67074": {
+                    "sd": "Kaikki vaiheet yhteensä Tehokerroin tuotto",
+                    "unit": ""
+                },
+                "121_50_1_Value_67330": {
+                    "sd": "Kaikki vaiheet yhteensä Loisteho tuotto",
+                    "unit": "kVar"
+                },
+                "121_50_1_Value_67586": {
+                    "sd": "Kaikki vaiheet yhteensä Loisenergian tuotto",
+                    "unit": "kVarh"
+                },
+                "121_50_2_Value_66049": {
+                    "sd": "L1 Pätöteho",
+                    "unit": "W"
+                },
+                "121_50_2_Value_66561": {
+                    "sd": "L1 Jännite",
+                    "unit": "V"
+                },
+                "121_50_2_Value_66817": {
+                    "sd": "L1 Virta",
+                    "unit": "A"
+                },
+                "121_50_2_Value_67073": {
+                    "sd": "L1 Tehokerroin",
+                    "unit": ""
+                },
+                "121_50_2_Value_66050": {
+                    "sd": "L1 Pätöteho tuotto",
+                    "unit": "W"
+                },
+                "121_50_2_Value_66562": {
+                    "sd": "L1 Jännite tuotto",
+                    "unit": "V"
+                },
+                "121_50_2_Value_66818": {
+                    "sd": "L1 Virta tuotto",
+                    "unit": "A"
+                },
+                "121_50_2_Value_67074": {
+                    "sd": "L1 Tehokerrroin tuotto",
+                    "unit": ""
+                },
+                "121_50_3_Value_66049": {
+                    "sd": "L2 Pätöteho",
+                    "unit": "W"
+                },
+                "121_50_3_Value_66561": {
+                    "sd": "L2 Jännite",
+                    "unit": "V"
+                },
+                "121_50_3_Value_66817": {
+                    "sd": "L2 Virta",
+                    "unit": "A"
+                },
+                "121_50_3_Value_67073": {
+                    "sd": "L2 Tehokerroin",
+                    "unit": ""
+                },
+                "121_50_3_Value_66050": {
+                    "sd": "L2 Pätöteho tuotto",
+                    "unit": "W"
+                },
+                "121_50_3_Value_66562": {
+                    "sd": "L2 Jännite tuotto",
+                    "unit": "V"
+                },
+                "121_50_3_Value_66818": {
+                    "sd": "L2 Virta tuotto",
+                    "unit": "A"
+                },
+                "121_50_3_Value_67074": {
+                    "sd": "L2 Tehokerroin tuotto",
+                    "unit": ""
+                },
+                "121_50_4_Value_66049": {
+                    "sd": "L3 Pätöteho",
+                    "unit": "W"
+                },
+                "121_50_4_Value_66561": {
+                    "sd": "L3 Jännite",
+                    "unit": "V"
+                },
+                "121_50_4_Value_66817": {
+                    "sd": "L3 Virta",
+                    "unit": "A"
+                },
+                "121_50_4_Value_67073": {
+                    "sd": "L3 Tehokerroin",
+                    "unit": ""
+                },
+                "121_50_4_Value_66050": {
+                    "sd": "L3 Pätöteho tuotto",
+                    "unit": "W"
+                },
+                "121_50_4_Value_66562": {
+                    "sd": "L3 Jännite tuotto",
+                    "unit": "V"
+                },
+                "121_50_4_Value_66818": {
+                    "sd": "L3 Virta tuotto",
+                    "unit": "A"
+                },
+                "121_50_4_Value_67074": {
+                    "sd": "L3 Tehokerroin tuotto",
+                    "unit": ""
+                }
+            }
+        },
+        "122": {
+            "sd": "Kylpyhuone valot",
+            "sensors": {
+                "122_37_1_CurrentValue": {
+                    "sd": "Katto päällä/pois"
+                },
+                "122_50_1_Value_66049": {
+                    "sd": "Katto teho",
+                    "unit": "W"
+                },
+                "122_50_1_Value_65537": {
+                    "sd": "Katto energiakulutus",
+                    "unit": "kWh"
+                },
+                "122_37_2_CurrentValue": {
+                    "sd": "Peili päällä/pois"
+                },
+                "122_50_2_Value_66049": {
+                    "sd": "Peili teho",
+                    "unit": "W"
+                },
+                "122_50_2_Value_65537": {
+                    "sd": "Peili energiakulutus",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "125": {
+            "sd": "LED-kattotuuletin",
+            "sensors": {
+                "125_37_1_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 1"
+                },
+                "125_37_2_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 2"
+                }
+            }
+        },
+        "139": {
+            "sd": "Biopolttoaine",
+            "sensors": {
+                "139_49_0_TankCapacity": {
+                    "sd": "Säiliön täyttöaste",
+                    "unit": "%"
+                }
+            }
+        },
+        "141": {
+            "sd": "TB Sisävalo",
+            "sensors": {
+                "141_37_1_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 1"
+                },
+                "141_50_1_Value_66049": {
+                    "sd": "Teho, kanava 1",
+                    "unit": "W"
+                },
+                "141_50_1_Value_65537": {
+                    "sd": "Energiakulutus, kanava 1",
+                    "unit": "kWh"
+                },
+                "141_37_2_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 2"
+                },
+                "141_50_2_Value_66049": {
+                    "sd": "Teho, kanava 2",
+                    "unit": "W"
+                },
+                "141_50_2_Value_65537": {
+                    "sd": "Energiakulutus, kanava 2",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "142": {
+            "sd": "TB Ulkovalot",
+            "sensors": {
+                "142_37_1_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 1"
+                },
+                "142_50_1_Value_66049": {
+                    "sd": "Teho, kanava 1",
+                    "unit": "W"
+                },
+                "142_50_1_Value_65537": {
+                    "sd": "Energiakulutus, kanava 1",
+                    "unit": "kWh"
+                },
+                "142_37_2_CurrentValue": {
+                    "sd": "Päällä/pois, kanava 2"
+                },
+                "142_50_2_Value_66049": {
+                    "sd": "Teho, kanava 2",
+                    "unit": "W"
+                },
+                "142_50_2_Value_65537": {
+                    "sd": "Energiakulutus, kanava 2",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "144": {
+            "sd": "TB Sisäilma",
+            "sensors": {
+                "144_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "144_49_0_Humidity": {
+                    "sd": "Kosteus",
+                    "unit": "%"
+                },
+                "144_49_0_VolatileOrganicCompoundLevel": {
+                    "sd": "VOC-taso",
+                    "unit": "ppb"
+                },
+                "144_49_0_SmokeDensity": {
+                    "sd": "Savutaso",
+                    "unit": ""
+                },
+                "144_49_0_GeneralPurpose": {
+                    "sd": "Liiketunnistus",
+                    "unit": ""
+                },
+                "144_49_0_ParticulateMatter25": {
+                    "sd": "Hiukkasmäärä 2.5 µm",
+                    "unit": "µg/m3"
+                },
+                "144_49_0_CarbonDioxideLevel": {
+                    "sd": "Hiilidioksiditaso, tehdasbugi aina 0",
+                    "unit": "ppm"
+                },
+                "144_49_0_Illuminance": {
+                    "sd": "Valaistusvoimakkuus",
+                    "unit": "lx"
+                },
+                "144_49_0_Loudness": {
+                    "sd": "Melutaso",
+                    "unit": "dBA"
+                }
+            }
+        },
+        "145": {
+            "sd": "Sisäilma",
+            "sensors": {
+                "145_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "145_49_0_Humidity": {
+                    "sd": "Kosteus",
+                    "unit": "%"
+                },
+                "145_49_0_VolatileOrganicCompoundLevel": {
+                    "sd": "VOC-taso",
+                    "unit": "ppb"
+                },
+                "145_49_0_SmokeDensity": {
+                    "sd": "Savutaso",
+                    "unit": ""
+                },
+                "145_49_0_GeneralPurpose": {
+                    "sd": "Liiketunnistus",
+                    "unit": ""
+                },
+                "145_49_0_ParticulateMatter25": {
+                    "sd": "Hiukkasmäärä 2.5 µm",
+                    "unit": "µg/m3"
+                },
+                "145_49_0_CarbonDioxideLevel": {
+                    "sd": "Hiilidioksiditaso, tehdasbugi aina 0",
+                    "unit": "ppm"
+                },
+                "145_49_0_Illuminance": {
+                    "sd": "Valaistusvoimakkuus",
+                    "unit": "lx"
+                },
+                "145_49_0_Loudness": {
+                    "sd": "Melutaso",
+                    "unit": "dBA"
+                }
+            }
+        },
+        "146": {
+            "sd": "Harmaavesisäiliö",
+            "sensors": {
+                "146_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "146_128_0_Level": {
+                    "sd": "Pariston varaus",
+                    "unit": "%"
+                },
+                "146_113_0_WaterAlarm_SensorStatus": {
+                    "sd": "Pintahälytyksen tila"
+                }
+            }
+        },
+        "148": {
+            "sd": "TB Pr polttoaine",
+            "sensors": {
+                "148_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "148_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "148_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "150": {
+            "sd": "TB Pr Vesipumppu",
+            "sensors": {
+                "150_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "150_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "150_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "151": {
+            "sd": "TB Pr Sisäilma-anturi",
+            "sensors": {
+                "151_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "151_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "151_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "152": {
+            "sd": "TB Pr Vesikiertopumput ja -mittarit",
+            "sensors": {
+                "152_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "152_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "152_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "153": {
+            "sd": "TB Pr Älylukon yhteyssilta",
+            "sensors": {
+                "153_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "153_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "153_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "154": {
+            "sd": "TB Pr vapaa1",
+            "sensors": {
+                "154_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "154_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "154_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "155": {
+            "sd": "TB Pr vapaa2",
+            "sensors": {
+                "155_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "155_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "155_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "156": {
+            "sd": "TB Pr vapaa3",
+            "sensors": {
+                "156_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "156_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "156_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "157": {
+            "sd": "TB Pr ulko",
+            "sensors": {
+                "157_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "157_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "157_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "158": {
+            "sd": "Pr rappuset",
+            "sensors": {
+                "158_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "158_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "158_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "159": {
+            "sd": "Pr työpiste1",
+            "sensors": {
+                "159_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "159_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "159_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "161": {
+            "sd": "Pr työpiste2",
+            "sensors": {
+                "161_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "161_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "161_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "162": {
+            "sd": "Pr huoltoluukku1",
+            "sensors": {
+                "162_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "162_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "162_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "163": {
+            "sd": "Pr huoltoluukku2",
+            "sensors": {
+                "163_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "163_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "163_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "164": {
+            "sd": "Pr keittiö1",
+            "sensors": {
+                "164_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "164_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "164_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "166": {
+            "sd": "Pr keittiö2",
+            "sensors": {
+                "166_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "166_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "166_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "167": {
+            "sd": "Pr mikro1",
+            "sensors": {
+                "167_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "167_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "167_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "168": {
+            "sd": "Pr mikro2",
+            "sensors": {
+                "168_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "168_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "168_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "170": {
+            "sd": "Pr kaasuliesi",
+            "sensors": {
+                "170_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "170_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "170_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "171": {
+            "sd": "Pr jääkaappi",
+            "sensors": {
+                "171_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "171_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "171_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "172": {
+            "sd": "Pr yläkerta1",
+            "sensors": {
+                "172_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "172_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "172_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "173": {
+            "sd": "Pr yläkerta2",
+            "sensors": {
+                "173_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "173_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "173_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "175": {
+            "sd": "Pr yläkerta3",
+            "sensors": {
+                "175_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "175_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "175_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "176": {
+            "sd": "Pr TV1",
+            "sensors": {
+                "176_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "176_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "176_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "177": {
+            "sd": "Pr TV2",
+            "sensors": {
+                "177_37_0_CurrentValue": {
+                    "sd": "Päällä/pois"
+                },
+                "177_50_0_Value_65537": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "177_50_0_Value_66049": {
+                    "sd": "Teho",
+                    "unit": "W"
+                }
+            }
+        },
+        "181": {
+            "sd": "Tuulimyllymittari Z-Uno2",
+            "sensors": {
+                "181_49_0_Current": {
+                    "sd": "Virta",
+                    "unit": "A"
+                }
+            }
+        },
+        "184": {
+            "sd": "TB Palovaroitin",
+            "sensors": {
+                "184_128_0_Level": {
+                    "sd": "Pariston varaus",
+                    "unit": "%"
+                },
+                "184_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "184_113_0_SmokeAlarm_SensorStatus": {
+                    "sd": "Palohälytyksen tila",
+                    "unit": ""
+                }
+            }
+        },
+        "188": {
+            "sd": "Sisäilma-anturi MH9-CO2",
+            "sensors": {
+                "188_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "188_49_0_Humidity": {
+                    "sd": "Kosteus",
+                    "unit": "%"
+                },
+                "188_49_0_CarbonDioxideLevel": {
+                    "sd": "Hiilidioksiditaso",
+                    "unit": "ppm"
+                }
+            }
+        },
+        "189": {
+            "sd": "TB 3-vaihesähkömittari",
+            "sensors": {
+                "189_50_1_Value_65537": {
+                    "sd": "Kaikki vaiheet yhteensä Energiakulutus",
+                    "unit": "kWh"
+                },
+                "189_50_1_Value_65793": {
+                    "sd": "KAikki vaiheet yhteensä Sähköenergiakulutus",
+                    "unit": "kVAh"
+                },
+                "189_50_1_Value_66049": {
+                    "sd": "Kaikki vaiheet yhteensä Pätöteho",
+                    "unit": "W"
+                },
+                "189_50_1_Value_67073": {
+                    "sd": "Kaikki vaiheet yhteensä Tehokerroin",
+                    "unit": ""
+                },
+                "189_50_1_Value_67329": {
+                    "sd": "Kaikki vaiheet yhtennsä Loisteho",
+                    "unit": "kVar"
+                },
+                "189_50_1_Value_67585": {
+                    "sd": "Kaikki vaiheet yhteensä Loisenergian kulutus",
+                    "unit": "kVarh"
+                },
+                "189_50_1_Value_65538": {
+                    "sd": "Kaikki vaiheet yhteensä Pätöenergian tuotto",
+                    "unit": "kWh"
+                },
+                "189_50_1_Value_65794": {
+                    "sd": "Kaikki vaiheet yhteensä Näennäisenergian tuotto",
+                    "unit": "kVAh"
+                },
+                "189_50_1_Value_66050": {
+                    "sd": "Kaikki vaiheet yhteensä Pätöteho tuotto",
+                    "unit": "W"
+                },
+                "189_50_1_Value_67074": {
+                    "sd": "Kaikki vaiheet yhteensä Tehokerroin tuotto",
+                    "unit": ""
+                },
+                "189_50_1_Value_67330": {
+                    "sd": "Kaikki vaiheet yhteensä Loisteho tuotto",
+                    "unit": "kVar"
+                },
+                "189_50_1_Value_67586": {
+                    "sd": "Kaikki vaiheet yhteensä Loisenergian tuotto",
+                    "unit": "kVarh"
+                },
+                "189_50_2_Value_66049": {
+                    "sd": "L1 Pätöteho",
+                    "unit": "W"
+                },
+                "189_50_2_Value_66561": {
+                    "sd": "L1 Jännite",
+                    "unit": "V"
+                },
+                "189_50_2_Value_66817": {
+                    "sd": "L1 Virta",
+                    "unit": "A"
+                },
+                "189_50_2_Value_67073": {
+                    "sd": "L1 Tehokerroin",
+                    "unit": ""
+                },
+                "189_50_2_Value_66050": {
+                    "sd": "L1 Pätöteho tuotto",
+                    "unit": "W"
+                },
+                "189_50_2_Value_66562": {
+                    "sd": "L1 Jännite tuotto",
+                    "unit": "V"
+                },
+                "189_50_2_Value_66818": {
+                    "sd": "L1 Virta tuotto",
+                    "unit": "A"
+                },
+                "189_50_2_Value_67074": {
+                    "sd": "L1 Tehokerrroin tuotto",
+                    "unit": ""
+                },
+                "189_50_3_Value_66049": {
+                    "sd": "L2 Pätöteho",
+                    "unit": "W"
+                },
+                "189_50_3_Value_66561": {
+                    "sd": "L2 Jännite",
+                    "unit": "V"
+                },
+                "189_50_3_Value_66817": {
+                    "sd": "L2 Virta",
+                    "unit": "A"
+                },
+                "189_50_3_Value_67073": {
+                    "sd": "L2 Tehokerroin",
+                    "unit": ""
+                },
+                "189_50_3_Value_66050": {
+                    "sd": "L2 Pätöteho tuotto",
+                    "unit": "W"
+                },
+                "189_50_3_Value_66562": {
+                    "sd": "L2 Jännite tuotto",
+                    "unit": "V"
+                },
+                "189_50_3_Value_66818": {
+                    "sd": "L2 Virta tuotto",
+                    "unit": "A"
+                },
+                "189_50_3_Value_67074": {
+                    "sd": "L2 Tehokerroin tuotto",
+                    "unit": ""
+                },
+                "189_50_4_Value_66049": {
+                    "sd": "L3 Pätöteho",
+                    "unit": "W"
+                },
+                "189_50_4_Value_66561": {
+                    "sd": "L3 Jännite",
+                    "unit": "V"
+                },
+                "189_50_4_Value_66817": {
+                    "sd": "L3 Virta",
+                    "unit": "A"
+                },
+                "189_50_4_Value_67073": {
+                    "sd": "L3 Tehokerroin",
+                    "unit": ""
+                },
+                "189_50_4_Value_66050": {
+                    "sd": "L3 Pätöteho tuotto",
+                    "unit": "W"
+                },
+                "189_50_4_Value_66562": {
+                    "sd": "L3 Jännite tuotto",
+                    "unit": "V"
+                },
+                "189_50_4_Value_66818": {
+                    "sd": "L3 Virta tuotto",
+                    "unit": "A"
+                },
+                "189_50_4_Value_67074": {
+                    "sd": "L3 Tehokerroin tuotto",
+                    "unit": ""
+                }
+            }
+        },
+        "190": {
+            "sd": "Sääasema masto",
+            "sensors": {
+                "190_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "190_49_0_Illuminance": {
+                    "sd": "Valaistus",
+                    "unit": "%"
+                },
+                "190_49_0_Humidity": {
+                    "sd": "Kosteus",
+                    "unit": "%"
+                },
+                "190_49_0_Velocity": {
+                    "sd": "Tuulen nopeus",
+                    "unit": "m/s"
+                },
+                "190_49_0_BarometricPressure": {
+                    "sd": "Ilmanpaine",
+                    "unit": "kPa"
+                },
+                "190_49_0_DewPoint": {
+                    "sd": "Kastepiste",
+                    "unit": "°C"
+                },
+                "190_128_0_Level": {
+                    "sd": "Akun varaus",
+                    "unit": "%"
+                },
+                "190_50_0_Value_65538": {
+                    "sd": "Sääaseman aurinkokennon tuottama energia",
+                    "unit": "kWh"
+                },
+                "190_50_0_Value_66306": {
+                    "sd": "Sääaseman energiatuotannon pulssilaskuri",
+                    "unit": "pulses"
+                }
+            }
+        },
+        "191": {
+            "sd": "Sääasema extra, poistetty käytöstä",
+            "sensors": {
+                "191_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "191_49_0_Illuminance": {
+                    "sd": "Valaistus",
+                    "unit": "%"
+                },
+                "191_49_0_Humidity": {
+                    "sd": "Kosteus",
+                    "unit": "%"
+                },
+                "191_49_0_Velocity": {
+                    "sd": "Tuulen nopeus",
+                    "unit": "m/s"
+                },
+                "191_49_0_BarometricPressure": {
+                    "sd": "Ilmanpaine",
+                    "unit": "kPa"
+                },
+                "191_49_0_DewPoint": {
+                    "sd": "Kastepiste",
+                    "unit": "°C"
+                },
+                "191_128_0_Level": {
+                    "sd": "Akun varaus",
+                    "unit": "%"
+                },
+                "191_50_0_Value_65538": {
+                    "sd": "Sääaseman aurinkokennon tuottama energia",
+                    "unit": "kWh"
+                },
+                "191_50_0_Value_66306": {
+                    "sd": "Sääaseman energiatuotannon pulssilaskuri",
+                    "unit": "pulses"
+                }
+            }
+        },
+        "193": {
+            "sd": "Harmaavesisäiliön/lattian lämpötila",
+            "sensors": {
+                "193_49_0_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                },
+                "193_128_0_Level": {
+                    "sd": "Akun varaus",
+                    "unit": "%"
+                },
+                "193_113_0_WaterAlarm_SensorStatus": {
+                    "sd": "Pintahälytyksen tila, ei käytössä"
+                }
+            }
+        },
+        "202": {
+            "sd": "TB 1000 litra energiavaraaja",
+            "sensors": {
+                "202_49_2_AirTemperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                }
+            }
+        },
+        "77097332": {
+            "sd": "Käyttövesimittari",
+            "sensors": {
+                "media": {
+                    "sd": "Tarkoitus"
+                },
+                "meter": {
+                    "sd": "Tyyppi"
+                },
+                "name": {
+                    "sd": "Nimi"
+                },
+                "id": {
+                    "sd": "Sarjanumero"
+                },
+                "status": {
+                    "sd": "Tila ???"
+                },
+                "total_m3": {
+                    "sd": "Veden kulutus",
+                    "unit": "m^3"
+                },
+                "target_m3": {
+                    "sd": "Target m3 ???",
+                    "unit": "m^3"
+                },
+                "max_flow_m3h": {
+                    "sd": "Virtausnopeus",
+                    "unit": "m^3/h"
+                },
+                "flow_temperature_c": {
+                    "sd": "Virtauslämpötila",
+                    "unit": "°C"
+                },
+                "external_temperature_c": {
+                    "sd": "Ulkoinen lämpötila",
+                    "unit": "°C"
+                },
+                "current_status": {
+                    "sd": "Tila"
+                },
+                "time_dry": {
+                    "sd": "Kuiva aika"
+                },
+                "time:reversed": {
+                    "sd": "Väärinpäin aika"
+                },
+                "time_leaking": {
+                    "sd": "Vuotoaika"
+                },
+                "time_bursting": {
+                    "sd": "Räjähdysaika"
+                },
+                "device": {
+                    "sd": "Lukulaite"
+                },
+                "rssi_dbm": {
+                    "sd": "Signaalin voimakkuus",
+                    "unit": "dBm"
+                }
+            }
+        },
+        "78101369": {
+            "sd": "Lattialämmityksen kaukolämpömittari",
+            "sensors": {
+                "media": {
+                    "sd": "Tarkoitus"
+                },
+                "meter": {
+                    "sd": "Tyyppi"
+                },
+                "name": {
+                    "sd": "Nimi"
+                },
+                "id": {
+                    "sd": "Sarjanumero"
+                },
+                "total_energy_consumption_kwh": {
+                    "sd": "Energiakulutus",
+                    "unit": "kWh"
+                },
+                "total_volume_m3": {
+                    "sd": "Veden läpivirtaus",
+                    "unit": "m^3"
+                },
+                "volume_flow_m3h": {
+                    "sd": "Virtausnopeus",
+                    "unit": "m^3/h"
+                },
+                "t1_temperature_c": {
+                    "sd": "Menoveden lämpötila",
+                    "unit": "°C"
+                },
+                "t2_temperature_c": {
+                    "sd": "Paluuveden lämpötila",
+                    "unit": "°C"
+                },
+                "at_date": {
+                    "sd": "Päivämäärä"
+                },
+                "current_status": {
+                    "sd": "Tila"
+                },
+                "energy_forward_kwh": {
+                    "sd": "Lähtenyt energia",
+                    "unit": "kWh"
+                },
+                "energy_returned_kwh": {
+                    "sd": "Palannut energia",
+                    "unit": "kWh"
+                },
+                "device": {
+                    "sd": "Lukulaite"
+                },
+                "rssi_dbm": {
+                    "sd": "Signaalin voimakkuus",
+                    "unit": "dBm"
+                }
+            }
+        },
+        "rpi": {
+            "sd": "Raspberry Pi",
+            "sensors": {
+                "voltage": {
+                    "sd": "Akun jännite",
+                    "unit": "V"
+                },
+                "capacity": {
+                    "sd": "Akun varaus",
+                    "unit": "%"
+                },
+                "mainsPower": {
+                    "sd": "Laturi päällä/pois",
+                    "unit": ""
+                },
+                "cpuLoad": {
+                    "sd": "CPU kuormitus",
+                    "unit": "%"
+                },
+                "cpuTemp": {
+                    "sd": "CPU lämpötila",
+                    "unit": "°C"
+                },
+                "diskSpace": {
+                    "sd": "Levytila",
+                    "unit": "%"
+                },
+                "ram": {
+                    "sd": "RAM käyttöaste",
+                    "unit": "%"
+                }
+            }
+        },
+        "TB_batterypack": {
+            "sd": "TB Akusto",
+            "sensors": {
+                "soc": {
+                    "sd": "Varaus",
+                    "unit": "%"
+                },
+                "soh": {
+                    "sd": "State of Health",
+                    "unit": "%"
+                },
+                "voltage": {
+                    "sd": "Jännite",
+                    "unit": "V"
+                },
+                "temperature": {
+                    "sd": "Lämpötila",
+                    "unit": "°C"
+                }
+            }
+        },
+        "TB_solar": {
+            "sd": "Aurinkopaneelit",
+            "sensors": {
+                "pvpower": {
+                    "sd": "Teho",
+                    "unit": "W"
+                },
+                "yieldtoday": {
+                    "sd": "Tuotto tänään",
+                    "unit": "kWh"
+                },
+                "yieldyesterday": {
+                    "sd": "Tuotto eilen",
+                    "unit": "kWh"
+                },
+                "yieldsincereset": {
+                    "sd": "Tuotto alusta lähtien",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "TB_inverter": {
+            "sd": "TB Inverter",
+            "sensors": {
+                "L1": {
+                    "sd": "L1 Teho",
+                    "unit": "W"
+                },
+                "L2": {
+                    "sd": "L2 Teho",
+                    "unit": "W"
+                },
+                "L3": {
+                    "sd": "L3 Teho",
+                    "unit": "W"
+                },
+                "energy": {
+                    "sd": "Energia output laskurin nollaamisesta lähtien",
+                    "unit": "kWh"
+                }
+            }
+        },
+        "wind": {
+            "sd": "Tuulimyllymittari shuntti",
+            "sensors": {
+                "voltage": {
+                    "sd": "Jännite",
+                    "unit": "V"
+                },
+                "current": {
+                    "sd": "Virta",
+                    "unit": "A"
+                },
+                "power": {
+                    "sd": "Teho",
+                    "unit": "W"
+                },
+                "produced_energy": {
+                    "sd": "Tuotettu energia",
+                    "unit": "kWh"
+                }
+            }
+        }
+    }
+}
