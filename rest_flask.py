@@ -97,3 +97,4 @@ def get_specific_sensor_data(column, value):
 
 if __name__ == '__main__':
     app.run(debug=True)
+

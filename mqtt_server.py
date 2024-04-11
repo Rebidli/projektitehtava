@@ -20,11 +20,8 @@ DB_CONFIG = {
     'cursorclass': pymysql.cursors.DictCursor
 }
 
-
 with open('coolbox_metadata.json', 'r', encoding='UTF-8') as config_file:
     metadata = json.load(config_file)
-
-
 
 @contextmanager
 def get_db_connection():
