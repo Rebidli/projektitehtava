@@ -4,3 +4,4 @@ mysql-connector-python
 uvicorn
 sqlalchemy
 flask
+passlib
