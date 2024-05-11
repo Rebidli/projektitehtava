@@ -52,7 +52,7 @@ def insert_date_dim(timestamp):
     with get_db_connection() as conn:
         with conn.cursor() as cursor:
             sql = """
-            INSERT INTO date_dim (year, month, day, hour, minute, second, millisecond)
+            INSERT INTO date_dim (year, month, week, day, hour, minute, second, millisecond)
             VALUES (%s, %s, %s, %s, %s, %s, %s)
             """
             cursor.execute(sql, date_parts)

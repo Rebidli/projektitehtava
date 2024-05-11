@@ -3,5 +3,13 @@ certifi
 mysql-connector-python
 uvicorn
 sqlalchemy
-flask
 passlib
+pyjwt
+certifi
+fastapi
+mysql-connector-python
+paho-mqtt
+PyMySQL
+SQLAlchemy
+uvicorn
+
